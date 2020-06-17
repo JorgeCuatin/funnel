@@ -1,10 +1,12 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
 }
 #cabecera{
     padding: 20px;
-    height: 40px;
-    background-color: blanchedalmond;
+    height: 100px;
+    background-color: rgb(136, 248, 114);
+    color: rgb(6, 6, 255);
 }
 .frame{
     width: 80%;
@@ -35,9 +37,20 @@ color: cornsilk;
 
 #footer{
     display: flex;
-    background-color: darkkhaki;
-    color: white;
+    background-color: rgb(212, 206, 110);
+    color: rgb(255, 0, 0);
     padding: 20px;
     bottom: 0px;
 
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+p{
+    color: purple;
 }
