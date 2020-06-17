@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+}
+#cabecera{
+    padding: 20px;
+    height: 40px;
+    background-color: blanchedalmond;
+}
+.frame{
+    width: 80%;
+    height: 300px;
+
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.action-button{
+padding: 15px;
+background-color: blue;
+border-radius: 10px;
+color: cornsilk;
+}
+
+.action-button:hover{
+    padding: 15px;
+    background-color: rgb(43, 255, 0);
+    border-radius: 10px;
+    color: cornsilk;
+    }
+
+#footer{
+    display: flex;
+    background-color: darkkhaki;
+    color: white;
+    padding: 20px;
+    bottom: 0px;
+
+}
